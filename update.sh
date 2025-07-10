@@ -11,7 +11,7 @@ fi
 
 # Download the ZIP file
 echo "Downloading Eaglercraft workspace..."
-curl -L -o master.zip https://git.eaglercraft.rip/eaglercraft/eaglercraft-1.8-workspace/archive/master.zip
+curl -L -o master.zip https://github.com/Eaglercraft-Archive/EaglercraftX-1.8-workspace/archive/refs/heads/master.zip
 
 # Check if the download was successful
 if [ $? -ne 0 ]; then
